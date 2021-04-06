@@ -1,0 +1,30 @@
+header{
+    color:black;
+    background-color: cyan;
+    padding: 25px;
+}
+nav ul{
+    background-color:rgb(143, 188, 186);
+    color: black;
+    padding: 10px;
+}
+section{
+    float: left;
+    width: 70%;
+    background-color: darkturquoise;
+}
+aside{
+    float: left;
+    width: 30%;
+    background-color:rgb(45, 125, 156);
+}
+footer{
+    background-color: cadetblue;
+    color: black;
+    padding: 20px;
+}
+.contenedor::after{
+    content: "";
+    display: block;
+    clear: both;
+}
